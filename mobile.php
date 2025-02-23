@@ -7,7 +7,7 @@ include 'headerm.php';
 <html>
 <head>
 <title>Mobile</title>
-<link rel="stylesheet" type="text/css" href="css/mobile.css"/>    
+<link rel="stylesheet" type="text/css" href="mobile.css"/>    
 <style>
  {
 
