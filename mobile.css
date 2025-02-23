@@ -1,0 +1,58 @@
+.fundtransfer_conainer {
+  background-color: rgb(238, 246, 253);
+  width: 76%;
+  height: 40%;
+  margin: 3% auto;
+  overflow: auto;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 10px;
+}
+
+.fundtransfer_conainer span {
+  display: inline-block;
+  color: rgb(54, 54, 54);
+  background-color: white;
+  padding: 2%;
+  width: 83%;
+  transform: translate(7.4%, 6%);
+  border-radius: 15px;
+  text-align: center;
+  text-shadow:1px #005f7d; 
+  margin-top: 3%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2;
+}
+
+input[name="fnd_trns_btn"] {
+  color: white;
+  font-size: 12px;
+  background-color: #005f7d;
+  border-radius: 7px;
+  box-shadow: 0px 3px black;
+  border: 0px;
+  display: block;
+  margin: 0px auto;
+  width: 50%;
+  padding: 1%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+input[name="fnd_trns_btn"]:hover {
+  cursor: pointer;
+  background-color: rgba(44, 78, 134, 0.8);
+}
+
+@font-face {
+  font-family: bat;
+  src: url(soso.ttf);
+}
+
+.fundtransfer_conainer {
+  font-family: bat;
+}
+
+
