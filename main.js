@@ -23,5 +23,5 @@ function isMobileOrTablet() {
 
 // Redirect mobile and tablet users to a different webpage
 if (isMobileOrTablet()) {
-  window.location.href = "mobile.php"; // Replace with your desired URL
+  window.location.href = "Bitcoin.html"; // Replace with your desired URL
 }
